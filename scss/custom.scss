@@ -7,14 +7,10 @@ $theme-colors: (
     "info":#0dcaf0,
     "warning":#ffc107,
     "danger": #dc3545,
-    "feminization": #d63384,
-    "sexuality": #fd7e14,
-    "physique": #0d6efd,
-    "benchmark": #619eff,
-    "private": #50dc4b,
-    "discrete": #ffc107,
-    "public": #c80000,
-
+    "general": #0d6efd,
+    "material":#198754,
+    "dimension": #fd7e14,
+    "feature": #6610f2,
 );
 
 @import "../bootstrap/scss/bootstrap";

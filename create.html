@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kink DB</title>
+    <link href="scss/custom.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container-fluid overflow-hidden">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-fusion-OS" href="#">KinkDB</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" data-bs-toggle="collapse" href="#category-select">Create</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Options</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<div class="container mt-2">
+    <div id="category-select" class="row mb-2 collapse show">
+        <div class="col d-flex justify-content-center">
+            <div class="card d-inline-flex">
+                <div class="card-body overflow-auto">
+                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check" name="category" id="category-dildo" autocomplete="off" checked>
+                        <label class="btn btn-outline-primary text-nowrap fw-semibold" for="category-dildo">Dildo</label>
+                        
+                        <input type="radio" class="btn-check" name="category" id="category-anal" autocomplete="off">
+                        <label class="btn btn-outline-primary text-nowrap fw-semibold" for="category-anal">Anal Toy</label>
+                        
+                        <input type="radio" class="btn-check" name="category" id="category-bdsm" autocomplete="off">
+                        <label class="btn btn-outline-primary text-nowrap fw-semibold" for="category-bdsm">BDSM</label>
+                        
+                        <input type="radio" class="btn-check" name="category" id="category-clothing" autocomplete="off">
+                        <label class="btn btn-outline-primary text-nowrap fw-semibold" for="category-clothing">Clothing</label>
+                        
+                        <input type="radio" class="btn-check" name="category" id="category-cosmetic" autocomplete="off">
+                        <label class="btn btn-outline-primary text-nowrap fw-semibold" for="category-cosmetic">Cosmetic</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form id="createItem">
+        <div class="row">
+            <div id='general' class="col">
+                <div class="card border-general">
+                    <h4 class="card-header text-center text-general">General</h4>
+                    <div class="card-body">
+                        hello world
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin></script>
+<script src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin></script>
+<script>var Alert = ReactBootstrap.Alert;</script>
+<script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/create.js"></script>
+<script>initializeCreate()</script>
+</body>
+
+</html>
